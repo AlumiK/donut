@@ -1,8 +1,13 @@
-.idea
-.cache
-*.iml
-/debug.py
-/.coverage
-*.pyc
-.DS_Store
-*.*~
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+.pytest_cache/
+
+# Jetbrains PyCharm
+.idea/
+
+# Sample outputs and models
+sample/out/
